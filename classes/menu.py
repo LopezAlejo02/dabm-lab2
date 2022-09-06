@@ -22,6 +22,7 @@ class MenuTecnicos:
     print('3. Registrar mantenimiento')
     print('4. Ver equipos')
     print('5. Ver prestamos')
+    print('6. Ver mantenimientos en un rango de fechas')
     op = input(">>>> ")
     return op
 

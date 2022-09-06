@@ -5,7 +5,7 @@ Created on Thu Aug 18 09:36:47 2022
 @author: Alejandro López
 """
 
-from classes.equipo import crearEquipo, verEquipos, mantenimiento
+from classes.equipo import crearEquipo, verEquipos, mantenimiento, rangoMant
 from classes.menu import Menu, MenuTecnicos, MenuEstudiantes
 from classes.prestamo import verPrestamos, crearPrestamo
 from classes.estudiante import crearEstudiante, verEquiposDisp
@@ -28,6 +28,8 @@ if __name__ == '__main__':
         verEquipos()
     elif op2 == '5':
         verPrestamos()
+    elif op2 == '6':
+        rangoMant()
     else:
         print('Opción incorrecta')
   elif op == '2':

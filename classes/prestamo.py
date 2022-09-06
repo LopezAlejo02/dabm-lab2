@@ -33,7 +33,7 @@ def crearPrestamo():
     print('Registrar prestamo')
     nombre = input('Estudiante: ')
     carnet = input('Carnet: ')
-    fechaPrestamo = input('Fecha de prestamo: ')
+    fechaPrestamo = input('Fecha de prestamo (dd/mm/aaaa): ')
     equipo = input('Equipo: ')
     referencia = input('Referencia del equipo: ')
     p = Prestamo(nombre, carnet, fechaPrestamo, equipo, referencia)
